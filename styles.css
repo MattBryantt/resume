@@ -1,0 +1,13 @@
+/* Global */
+
+body {
+    padding-top: 25px;
+}
+
+/* TODO: Add dynamic spacing with navbar with JS */
+
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
