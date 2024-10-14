@@ -1,10 +1,30 @@
 /* Global */
 
-body {
-    padding-top: 25px;
+body { /* TODO: Add dynamic spacing with navbar with JS */
+    padding-top: 40px;
 }
 
-/* TODO: Add dynamic spacing with navbar with JS */
+
+
+/* Images */
+.social-icon {
+    color: #333;
+    width: 28px;
+    height: 28px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+.profile-image { /* TODO: Make image sizing dynamic */
+    width: 75%;
+    border-radius: 50%;
+    display: block;          
+    margin-left: auto;
+    margin-right: auto; 
+}
 
 /* Navbar Styles */
 .navbar-brand {

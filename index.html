@@ -6,12 +6,15 @@
     <title>CV - Matt Bryant</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome (Icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm bg-light fixed-top">
         <div class="container-fluid">
+            <!-- TODO: Hide nav bar when too small -->
             <a class="navbar-brand" href="#">CV - Matt Bryant</a>
             <ul class="navbar-nav">
                 <li><a class="nav-link" href="#about">About</a></li>
@@ -22,25 +25,63 @@
         </div>
     </nav>
 
+    <!-- About -->
     <section class="container-fluid pt-5" id="about">
-        <h2>About</h2>
-        <p>About paragraph.</p>
+        <div class="row align-items-center">
+            <div class="col-md-3 align-items-center">
+                <!-- Profile Image -->
+                <div class="row align-items-center">
+                    <img src="assets/images/profile_image.jpg" class="img-fluid mb-3 profile-image">
+                </div>
+                <!-- Icons -->
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <a href="https://github.com/MattBryantt" target="_blank" class="social-icon">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://leetcode.com/u/MattBryantt/" target="_blank" class="social-icon">
+                            <img src="assets/images/leetcode.svg" class="social-icon"></i>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://www.linkedin.com/in/matt-bryantt/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h2>About</h2>
+                <p>About paragraph.</p>
+            </div>
+        </div>
     </section>
 
-    <section class="container-fluid" id="work">
+    <!-- Work -->
+    <section class="container-fluid pt-5" id="work">
         <h2>Work Experience</h2>
         <p>Work paragraph.</p>
     </section>
 
-    <section class="container-fluid" id="education">
+    <section class="container-fluid pt-5" id="education">
         <h2>Education</h2>
         <p>Education paragraph.</p>
     </section>
 
-    <section class="container-fluid" id="projects">
+    <section class="container-fluid pt-5" id="projects">
         <h2>Projects</h2>
         <p>Projects paragraph.</p>
     </section>
+
+    <footer class="bg-light text-center">
+        <div class="container-fluid p-4">
+            <a href="https://iconscout.com/icons/leetcode" class="text-underline font-size-sm" target="_blank">Leetcode</a> 
+            by <a href="https://iconscout.com/contributors/icon-54" class="text-underline font-size-sm">Icon 54</a> 
+            on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
+        </div>
+    </footer>
 
 </body>
 </html>
