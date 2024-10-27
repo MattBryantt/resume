@@ -1,16 +1,43 @@
 /* Global */
 
 body { /* TODO: Add dynamic spacing with navbar with JS */
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
+/* Text */
+h2 {
+    color: #005ec3;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 450;
+}
+
+h4 {
+    font-weight: 350;
+}
+
+.timeline {
+    font-weight: 300; 
+    font-size: large;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-weight: 550;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    font-weight: 450;
+}
 
 
 /* Images */
 .social-icon {
     color: #333;
-    width: 28px;
-    height: 28px;
     transition: color 0.3s ease;
 }
 
@@ -18,16 +45,48 @@ body { /* TODO: Add dynamic spacing with navbar with JS */
     color: #007bff;
 }
 
+.custom-icon {
+    margin-top: 2px;
+    width: 28px;
+    height: 28px;
+}
+
+.custom-icon path {
+    fill: #333
+}
+
+.custom-icon:hover path {
+    transition: fill 0.3s ease;
+    fill: #007bff;
+    /* 13, 110, 253 */
+}
+
 .profile-image { /* TODO: Make image sizing dynamic */
     width: 75%;
     border-radius: 50%;
+    border: 1.5px solid #333;
     display: block;          
     margin-left: auto;
     margin-right: auto; 
 }
 
+.project-image {
+    border-radius: 15%;
+}
+
+
 /* Navbar Styles */
-.navbar-brand {
-    font-size: 24px;
-    font-weight: bold;
+.nav-tabs .nav-link {
+   color: #333;
+   border: none;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #007bff;
+    transition: color 0.3 ease
+}
+
+.nav-tabs .nav-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
 }
